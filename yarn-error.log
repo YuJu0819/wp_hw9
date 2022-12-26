@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/chengyuju/.nvm/versions/node/v16.14.0/bin/node /opt/homebrew/bin/yarn add axios @material-ui/core styled-components
+
+PATH: 
+  /Users/chengyuju/.nvm/versions/node/v16.14.0/bin:/Users/chengyuju/opt/miniconda3/bin:/Users/chengyuju/opt/miniconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/chengyuju/Desktop/webprogram/wp1111/hw6/package.json: Unexpected token : in JSON at position 9
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  "scripts": {
+      "start": "cd frontend && yarn start",
+      "server": "cd backend && yarn server"
+  } 
+  
+  {
+    "name": "hw6",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
