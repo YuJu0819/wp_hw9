@@ -57,13 +57,13 @@ const queryHandle = async (type, queryString) => {
 };
 
 const db = mongoose.connection;
-db.on("error", (err) => console.log(err));
-db.once("open", async () => {
-  await deleteDB();
-  await saveUser("Ric", "LA", 100);
-  await saveUser("Ricky", "web", 100);
-  await saveUser("IU", "web", 90);
-});
+// db.on("error", (err) => console.log(err));
+// db.once("open", async () => {
+//   await deleteDB();
+//   await saveUser("Ric", "LA", 100);
+//   await saveUser("Ricky", "web", 100);
+//   await saveUser("IU", "web", 90);
+// });
 
 const router = Router();
 router.delete("/cards", (req, res) => {

@@ -7,7 +7,7 @@ import db from "./db";
 import bodyParser from "body-parser";
 import path from "path";
 dotenv.config();
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 console.log(process.env.MONGO_URL);
 db.connect();
 const app = express();
