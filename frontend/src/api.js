@@ -6,4 +6,4 @@ const API_ROOT =
 const instance = axios.create({ baseURL: API_ROOT });
 export default instance;
 
-// instance.get('/hi').then((data) => console.log(data));
+instance.get("/hi").then((data) => console.log(data));
